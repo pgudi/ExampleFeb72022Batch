@@ -13,7 +13,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @CucumberOptions(
 		features="src/test/resources/FeatureFiles",
 		glue={"com.sgtesting.actitime.stepdefinitions"},
-		tags ={"@Execute"}
+		tags ={"@smoke, @regression"}
 		)
 
 public class DriverScript {
